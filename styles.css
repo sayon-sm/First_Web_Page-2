@@ -1,19 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: sans-serif;
   color: #444;
+  font-family: sans-serif;
 
   border-top: 10px solid #1098ad;
-
   position: relative;
 }
 
 #container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -23,12 +23,21 @@ body {
   margin-bottom: 60px;
 }
 
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
 nav {
   font-size: 18px;
+  float: right;
 }
 
 article {
   margin-bottom: 60px;
+  width: 825px;
+  float: left;
 }
 
 .post-header {
@@ -39,8 +48,13 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
+  padding: 50px 40px;
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
 
 h1,
@@ -53,6 +67,7 @@ h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
+  float: left;
 }
 
 h2 {
@@ -72,6 +87,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -98,6 +114,14 @@ li:last-child {
 #author {
   font-style: italic;
   font-size: 18px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
 }
 
 #copyright {
@@ -111,6 +135,7 @@ li:last-child {
 
 .related {
   list-style: none;
+  margin-left: 0px;
 }
 
 li:first-child {
