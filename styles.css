@@ -31,13 +31,13 @@ body {
 
 nav {
   font-size: 18px;
-  float: right;
+  /* float: right; */
 }
 
 article {
   margin-bottom: 60px;
   width: 825px;
-  float: left;
+  /* float: left; */
 }
 
 .post-header {
@@ -50,7 +50,7 @@ aside {
   border-bottom: 5px solid #1098ad;
   padding: 50px 40px;
   width: 300px;
-  float: right;
+  /* float: right; */
 }
 
 footer {
@@ -67,7 +67,7 @@ h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
-  float: left;
+  /* float: left; */
 }
 
 h2 {
@@ -114,13 +114,13 @@ li:last-child {
 #author {
   font-style: italic;
   font-size: 18px;
-  float: left;
+  /* float: left; */
   margin-top: 10px;
   margin-left: 20px;
 }
 
 .author-img {
-  float: left;
+  /* float: left; */
   margin-bottom: 20px;
 }
 
