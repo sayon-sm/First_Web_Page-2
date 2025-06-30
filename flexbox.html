@@ -46,27 +46,31 @@
         gap: 20px;
       }
 
-      /* .el {
+      .el {
         flex: 0 0 50px;
-      } */
+      }
 
       .el--1 {
         display: flex;
-        align-items: center;
         justify-content: center;
-        /* flex: 1 0 auto; */
+        flex: 1 0 auto;
         order: 1;
       }
 
       .el--4 {
-        /* flex: 2 0 50px; */
-        align-self: flex-start;
+        flex: 2 0 50px;
+        align-self: stretch;
         order: -1;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
-      /* .el--5 {
-        flex: 0 1 10px; 
-      } */
+      .el--5 {
+        flex: 0 1 10px;
+        order: -2;
+      }
     </style>
   </head>
   <body>
