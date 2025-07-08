@@ -27,27 +27,20 @@ body {
   justify-content: space-between;
 }
 
-/* .clearfix::after {
-  clear: both;
-  content: '';
-  display: block;
-} */
-
 nav {
   font-size: 18px;
-  /* float: right; */
 }
 
 article {
   margin-bottom: 60px;
   width: 825px;
-  /* float: left; */
 }
 
 .author {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  margin-bottom: 15px;
 }
 
 .content {
@@ -66,7 +59,6 @@ aside {
   border-bottom: 5px solid #1098ad;
   padding: 50px 40px;
   width: 300px;
-  /* float: right; */
 }
 
 ul.related li {
@@ -81,6 +73,7 @@ ul.related li {
   font-weight: bold;
   font-style: normal;
   margin-bottom: 5px;
+  display: block;
 }
 
 footer {
@@ -97,7 +90,6 @@ h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-style: italic;
-  /* float: left; */
 }
 
 h2 {
@@ -144,14 +136,8 @@ li:last-child {
 #author {
   font-style: italic;
   font-size: 18px;
-  /* float: left; */
-  margin-left: 15px;
+  margin: 0px 15px;
   align-self: center;
-}
-
-.author-img {
-  /* float: left; */
-  margin-bottom: 20px;
 }
 
 #copyright {
@@ -162,6 +148,7 @@ li:last-child {
   font-size: 14px;
   font-weight: normal;
   margin-bottom: 0;
+  font-style: italic;
 }
 
 .related {
@@ -204,7 +191,6 @@ a:active {
 
 nav a:link {
   margin-right: 30px;
-  /* margin-top: 10px; */
 
   display: inline-block;
 }
