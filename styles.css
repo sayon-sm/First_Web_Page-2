@@ -20,7 +20,7 @@ body {
 .main-header {
   background-color: #f7f7f7;
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 
   display: flex;
   align-items: center;
@@ -31,10 +31,10 @@ nav {
   font-size: 18px;
 }
 
-article {
+/* article {
   margin-bottom: 60px;
   width: 825px;
-}
+} */
 
 .author {
   display: flex;
@@ -43,11 +43,12 @@ article {
   margin-bottom: 15px;
 }
 
-.content {
+/* flexbox layout */
+/* .content {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-}
+} */
 
 .post-header {
   margin-bottom: 40px;
