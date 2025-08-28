@@ -22,8 +22,6 @@ body {
 
   column-gap: 75px;
   row-gap: 60px;
-
-  align-items: start;
 }
 
 .main-header {
@@ -71,6 +69,8 @@ aside {
   border-bottom: 5px solid #1098ad;
   padding: 50px 40px;
   width: 300px;
+
+  align-self: start;
 }
 
 ul.related li {
