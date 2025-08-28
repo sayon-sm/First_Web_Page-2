@@ -15,6 +15,15 @@ body {
 #container {
   width: 1200px;
   margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 1fr 300px;
+
+  column-gap: 75px;
+  row-gap: 60px;
+
+  align-items: start;
 }
 
 .main-header {
@@ -25,6 +34,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  grid-column: 1 / -1;
 }
 
 nav {
@@ -34,7 +45,7 @@ nav {
 /* article {
   margin-bottom: 60px;
   width: 825px;
-} */
+  } */
 
 .author {
   display: flex;
@@ -45,10 +56,10 @@ nav {
 
 /* flexbox layout */
 /* .content {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-} */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    } */
 
 .post-header {
   margin-bottom: 40px;
@@ -78,7 +89,9 @@ ul.related li {
 }
 
 footer {
-  clear: both;
+  /* clear: both; */
+
+  grid-column: 1 / -1;
 }
 
 h1,
