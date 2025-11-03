@@ -170,13 +170,13 @@ li:last-child {
   margin-left: 0px;
 }
 
-li:first-child {
+/* li:first-child {
   font-weight: bold;
 }
 
-li:last-child {
+   li:last-child {
   font-style: italic;
-}
+} */
 
 a:link {
   color: #1098ad;
