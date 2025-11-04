@@ -38,6 +38,12 @@ body {
 
 nav {
   font-size: 18px;
+
+  display: grid;
+  grid-template-columns: 40px 96px 68px 79.1px;
+  column-gap: 30px;
+
+  overflow: hidden;
 }
 
 /* article {
@@ -203,11 +209,9 @@ a:active {
   height: auto;
 }
 
-nav a:link {
-  margin-right: 30px;
-
+/* nav a:link {
   display: inline-block;
-}
+} */
 
 nav a:link:last-child {
   margin-right: 0;
