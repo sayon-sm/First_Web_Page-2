@@ -42,8 +42,6 @@ nav {
   display: grid;
   grid-template-columns: 40px 96px 68px 79.1px;
   column-gap: 30px;
-
-  overflow: hidden;
 }
 
 /* article {
