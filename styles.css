@@ -39,9 +39,16 @@ body {
 nav {
   font-size: 18px;
 
-  display: grid;
+  /* display: grid;
   grid-template-columns: 40px 96px 68px 79.1px;
-  column-gap: 30px;
+  column-gap: 30px; */
+
+  /* flex: 0 0 400px; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 
 /* article {
@@ -182,9 +189,24 @@ li:last-child {
   font-style: italic;
 } */
 
+nav a:nth-child(1) {
+  flex: 0 0 40px;
+}
+nav a:nth-child(2) {
+  flex: 0 0 96px;
+}
+nav a:nth-child(3) {
+  flex: 0 0 68px;
+}
+nav a:nth-child(4) {
+  flex: 0 0 80px;
+}
+
 a:link {
   color: #1098ad;
   text-decoration: none;
+
+  /* flex: 0 1 100px; */
 }
 
 a:visited {
